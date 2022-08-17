@@ -1,47 +1,79 @@
 body {
-  background-color: rgb(21, 155, 110)
+  background-color: rgb(187, 187, 185);
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
 }
 .menuPrincipal {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: rgb(214, 111, 128);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 45px;
+   background: rgb(37, 54, 41);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
- nav ul{
+nav ul {
    list-style-type: none;
    margin: 0;
-   padding: 0%;
+   padding: 0;
    overflow: 0;
- }
- li{
+}
+li {
   float: left;
-
- }
- li a{
-   display: block;
-   color: bisque;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-
- }
- #lua {
-   width: 15%;
- }
-.caixaLua{
+}
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+   color: black;
+   background: rgb(156, 228, 212);
+}
+#kay {
+  width: 15%;
+}
+.caixaKay {
   position: absolute;
-  top: 20px;
-  left: 0%;
-  width: 20%;
-  height: 50%;
-  background: rgb(255, 255, 255);
+  top: 45px;
+  left: 0;
+  width: 90%;
+  height: 155px;
+  background: rgb(55, 117, 138);
   margin: 20px;
-  border-color: violet;
-  border-style: 20px;
+  border-width: 20px;
+  border-color: rgb(188, 155, 201);
+  border-style: solid;
   padding: 20px;
-
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 35px;
+   background: black;
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
+#kay {
+  width: 100%;
+}
+.logoKay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
 }
