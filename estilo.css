@@ -39,11 +39,12 @@ li a:hover {
   width: 15%;
 }
 .caixaKay {
-  position: absolute;
+  
+  position:absolute;
   top: 45px;
-  left: 0;
-  width: 90%;
-  height: 155px;
+  left: 200px;
+  width: 50%;
+  height: 200px;
   background: rgb(55, 117, 138);
   margin: 20px;
   border-width: 20px;
@@ -52,6 +53,7 @@ li a:hover {
   padding: 20px;
   display: flex;
   justify-content: center;
+  right: 50px;
 }
 .rodape {
    position: absolute;
@@ -72,8 +74,12 @@ li a:hover {
 }
 .logoKay {
   position: absolute;
-  top: 0;
+  top: 199px;
   right: 0;
   width: 100px;
   height: 100px;
+}
+p {
+  text-align: center;
+
 }
