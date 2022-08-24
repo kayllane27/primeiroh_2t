@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 h1 {
-  text-align: center;
+  text-align: right 140px
 }
 .menuPrincipal {
    position: absolute;
@@ -42,7 +42,7 @@ li a:hover {
   
   position:absolute;
   top: 45px;
-  left: 200px;
+  left: 250px;
   width: 50%;
   height: 200px;
   background: rgb(55, 117, 138);
@@ -79,7 +79,9 @@ li a:hover {
   width: 100px;
   height: 100px;
 }
-p {
-  text-align: center;
+.texto {
+  position: absolute;
+  bottom: 120px;
+text-align: center;
 
 }
